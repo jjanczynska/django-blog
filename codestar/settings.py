@@ -20,6 +20,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['8000-jjanczynska-djangoblog-vptv8z9z0ck.ws-eu101.gitpod.io', '8000-jjanczynska-djangoblog-vptv8z9z0ck.ws-eu104.gitpod.io', '8000-jjanczynska-djangoblog-vptv8z9z0ck.ws-eu102.gitpod.io',
  'codestar2023jj.herokuapp.com']
 
+ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 # Application definition
 
