@@ -21,7 +21,8 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['codestar2023jj.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['codestar-2023jj-bc8cde862e3c.herokuapp.com', 'localhost']
+
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
