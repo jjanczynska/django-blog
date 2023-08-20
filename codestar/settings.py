@@ -4,7 +4,7 @@ import dj_database_url
 from django.contrib.messages import constants as messages
 if os.path.isfile('env.py'):
     import env
-    
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
@@ -21,8 +21,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['8000-jjanczynska-djangoblog-vptv8z9z0ck.ws-eu101.gitpod.io', '8000-jjanczynska-djangoblog-vptv8z9z0ck.ws-eu104.gitpod.io', '8000-jjanczynska-djangoblog-vptv8z9z0ck.ws-eu102.gitpod.io',
- 'codestar2023jj.herokuapp.com']
+ALLOWED_HOSTS = ['codestar2023jj.herokuapp.com', 'localhost']
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
